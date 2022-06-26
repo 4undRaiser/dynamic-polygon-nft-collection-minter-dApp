@@ -154,7 +154,7 @@ const fetchNftOwner = async (index) => {
                 </Container>
             ) : (
                 //  if user wallet is not connected display cover page
-                <Cover name="DOGGGO NFT MINTER" coverImg="https://media.istockphoto.com/vectors/cute-jack-russell-terrier-paws-up-over-wall-dog-face-cartoon-vector-vector-id1158317995?k=20&m=1158317995&s=612x612&w=0&h=i2YDuEcTyTTnjTw4ZwfX8jMxaAPEs1ZFMk42FRbfpzU=" connect={connectWallet}/>
+                <Cover name="DOGGO NFT MINTER" coverImg="https://media.istockphoto.com/vectors/cute-jack-russell-terrier-paws-up-over-wall-dog-face-cartoon-vector-vector-id1158317995?k=20&m=1158317995&s=612x612&w=0&h=i2YDuEcTyTTnjTw4ZwfX8jMxaAPEs1ZFMk42FRbfpzU=" connect={connectWallet}/>
             )}
         </>
     );
