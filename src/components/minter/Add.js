@@ -17,7 +17,7 @@ const AddNfts = ({ save, address }) => {
         variant="dark"
         className="rounded-pill px-3 py-3"
       >
-         <h1 className="fs-4 fw-bold mb-0 text-white">{"Create NFT"}</h1> 
+         <h1 className="fs-4 fw-bold mb-0 text-white">{"Mint Doggo"}</h1> 
         
       </Button>
     </>

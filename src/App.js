@@ -146,7 +146,7 @@ const fetchNftOwner = async (index) => {
                         <Nfts
                             addNFT={addNFT}
                             getNfts={getNfts}
-                            name="NFT Minter"
+                            name="Doggo NFT Minter"
                             minterContract={minterContract}
                             address={address} 
                         />
@@ -154,7 +154,7 @@ const fetchNftOwner = async (index) => {
                 </Container>
             ) : (
                 //  if user wallet is not connected display cover page
-                <Cover name="NFT MINTER" coverImg="https://www.cnet.com/a/img/resize/180806b9e13bc1d1750aeef34e28f173dc2ee7e3/2021/11/29/f566750f-79b6-4be9-9c32-8402f58ba0ef/richerd.png?auto=webp&width=940" connect={connectWallet}/>
+                <Cover name="DOGGGO NFT MINTER" coverImg="https://media.istockphoto.com/vectors/cute-jack-russell-terrier-paws-up-over-wall-dog-face-cartoon-vector-vector-id1158317995?k=20&m=1158317995&s=612x612&w=0&h=i2YDuEcTyTTnjTw4ZwfX8jMxaAPEs1ZFMk42FRbfpzU=" connect={connectWallet}/>
             )}
         </>
     );
